@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="graphs"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/My Documents/CPE 593/graphs/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/PROGRA~1/msys2/mingw64/bin/mingw32-make.exe -f &quot;E:/My Documents/CPE 593/graphs/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/PROGRA~1/msys2/mingw64/bin/mingw32-make.exe -f &quot;E:/My Documents/CPE 593/graphs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/PROGRA~1/msys2/mingw64/bin/mingw32-make.exe -f &quot;E:/My Documents/CPE 593/graphs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/PROGRA~1/msys2/mingw64/bin/mingw32-make.exe -f &quot;E:/My Documents/CPE 593/graphs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="graphs">
+				<Option output="E:/My Documents/CPE 593/graphs/cmake-build-debug/graphs.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/My Documents/CPE 593/graphs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Program Files/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="E:/Program Files/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="E:/Program Files/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="E:/Program Files/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="E:/Program Files/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="E:/Program Files/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="E:/Program Files/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/PROGRA~1/msys2/mingw64/bin/mingw32-make.exe -f &quot;E:/My Documents/CPE 593/graphs/cmake-build-debug/Makefile&quot;  VERBOSE=1 graphs"/>
+					<CompileFile command="E:/PROGRA~1/msys2/mingw64/bin/mingw32-make.exe -f &quot;E:/My Documents/CPE 593/graphs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/PROGRA~1/msys2/mingw64/bin/mingw32-make.exe -f &quot;E:/My Documents/CPE 593/graphs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/PROGRA~1/msys2/mingw64/bin/mingw32-make.exe -f &quot;E:/My Documents/CPE 593/graphs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="graphs/fast">
+				<Option output="E:/My Documents/CPE 593/graphs/cmake-build-debug/graphs.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/My Documents/CPE 593/graphs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Program Files/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="E:/Program Files/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="E:/Program Files/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="E:/Program Files/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="E:/Program Files/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="E:/Program Files/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="E:/Program Files/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/PROGRA~1/msys2/mingw64/bin/mingw32-make.exe -f &quot;E:/My Documents/CPE 593/graphs/cmake-build-debug/Makefile&quot;  VERBOSE=1 graphs/fast"/>
+					<CompileFile command="E:/PROGRA~1/msys2/mingw64/bin/mingw32-make.exe -f &quot;E:/My Documents/CPE 593/graphs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/PROGRA~1/msys2/mingw64/bin/mingw32-make.exe -f &quot;E:/My Documents/CPE 593/graphs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/PROGRA~1/msys2/mingw64/bin/mingw32-make.exe -f &quot;E:/My Documents/CPE 593/graphs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/My Documents/CPE 593/graphs/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/PROGRA~1/msys2/mingw64/bin/mingw32-make.exe -f &quot;E:/My Documents/CPE 593/graphs/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/PROGRA~1/msys2/mingw64/bin/mingw32-make.exe -f &quot;E:/My Documents/CPE 593/graphs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/PROGRA~1/msys2/mingw64/bin/mingw32-make.exe -f &quot;E:/My Documents/CPE 593/graphs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/PROGRA~1/msys2/mingw64/bin/mingw32-make.exe -f &quot;E:/My Documents/CPE 593/graphs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/My Documents/CPE 593/graphs/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/PROGRA~1/msys2/mingw64/bin/mingw32-make.exe -f &quot;E:/My Documents/CPE 593/graphs/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/PROGRA~1/msys2/mingw64/bin/mingw32-make.exe -f &quot;E:/My Documents/CPE 593/graphs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/PROGRA~1/msys2/mingw64/bin/mingw32-make.exe -f &quot;E:/My Documents/CPE 593/graphs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/PROGRA~1/msys2/mingw64/bin/mingw32-make.exe -f &quot;E:/My Documents/CPE 593/graphs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/My Documents/CPE 593/graphs/dijkstras_algorithm.h">
+			<Option target="graphs"/>
+		</Unit>
+		<Unit filename="E:/My Documents/CPE 593/graphs/main.cpp">
+			<Option target="graphs"/>
+		</Unit>
+		<Unit filename="E:/My Documents/CPE 593/graphs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

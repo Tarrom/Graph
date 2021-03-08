@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/My Documents/CPE 593/graphs/dijkstras_algorithm.h
+
+E:/My Documents/CPE 593/graphs/main.cpp
+iostream
+-
+dijkstras_algorithm.h
+E:/My Documents/CPE 593/graphs/dijkstras_algorithm.h
+
