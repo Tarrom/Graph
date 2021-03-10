@@ -15,6 +15,6 @@ Pick the node q of minimum distance in the distance array that has not been pick
 For each node p that has not been picked yet, and that is connected to the node that was just picked, check:
 if dist p>dist q+graph(p,q) then update dist p=dist q+graph(p,q)
 
-I also initialize another boolean array that stores if each node has been picked.  This lets us know which nodes we can update the distance of and lets us know when the algorithm is done.
+I also initialize another boolean array that stores if each node has been picked.  This lets us know when each node has been picked and the algorithm is done.
 
 Because we pick each node, and then check every node attached to that node, this algorithm is O(V^2)
